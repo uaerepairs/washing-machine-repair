@@ -1,43 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Washing Machine Repair</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header>
-    <h1>Washing Machine Repair</h1>
-    <p>
-      Reliable and professional washing machine repair services across Dubai, 
-      including International City, Al Quoz, Al Qusais, and Discovery Gardens.
-    </p>
-  </header>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+}
 
-  <main>
-    <section>
-      <h2>Our Services</h2>
-      <ul>
-        <li>Washing machine repair International City</li>
-        <li>Washing machine repair Al Quoz</li>
-        <li>Miele washing machine repair</li>
-        <li>Washing machine repair Al Qusais</li>
-        <li>AEG washing machine repairs</li>
-        <li>Washing machine repair Discovery Gardens</li>
-      </ul>
-    </section>
+header {
+  background: linear-gradient(to right, #0066cc, #007bff);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
 
-    <section>
-      <h2>Contact Us</h2>
-      <p>
-        Call us today for fast and reliable repair services.
-      </p>
-    </section>
-  </main>
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
 
-  <footer>
-    <p>&copy; 2025 Washing Machine Repair. All rights reserved.</p>
-  </footer>
-</body>
-</html>
+footer {
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  background: #0066cc;
+  color: white;
+}
